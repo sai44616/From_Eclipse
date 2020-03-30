@@ -11,7 +11,7 @@ public class HelloWorldController {
  @RequestMapping("/helloworld")
  public ModelAndView hello() {
  
-  String helloWorldMessage = "Hello world  SAI kumar";
+  String helloWorldMessage = "Hello world  SAI kumar varma";
   return new ModelAndView("hello", "message", helloWorldMessage);
  }
 }
