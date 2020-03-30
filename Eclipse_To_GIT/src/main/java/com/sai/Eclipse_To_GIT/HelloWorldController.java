@@ -11,8 +11,8 @@ public class HelloWorldController {
  @RequestMapping("/helloworld")
  public ModelAndView hello() {
  
-  String helloWorldMessage = "Hello world from java2blog!";
-  return new ModelAndView("hello..", "message", helloWorldMessage);
+  String helloWorldMessage = "Hello world  SAI";
+  return new ModelAndView("hello", "message", helloWorldMessage);
  }
 }
 
