@@ -11,7 +11,7 @@ public class HelloWorldController {
  @RequestMapping("/helloworld")
  public ModelAndView hello() {
  
-  String helloWorldMessage = "Hello world  from Eclipse....updating in git.";
+  String helloWorldMessage = "Hello world  from Eclipse....updating in git....ram";
   return new ModelAndView("hello", "message", helloWorldMessage);
  }
 }
